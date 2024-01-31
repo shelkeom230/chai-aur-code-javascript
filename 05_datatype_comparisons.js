@@ -19,5 +19,5 @@ console.log(undefined > 0);
 console.log(undefined < 0);
 // avoid above conversions , write clean code 
 
-// strict check => ===
+// strict check => === checks value as well as datatype
 console.log("2"===2);

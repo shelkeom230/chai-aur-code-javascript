@@ -1,6 +1,6 @@
 // "use strict"; //treat all js code as newer version
 
-// alert(3+3) w are running js in node not in browser
+// alert(3+3) we are running js in node not in browser
 
 console.log(3+3);
 console.log("omkar shelke");
@@ -14,9 +14,9 @@ let state;
 data types: 
 1. number => 2 to the power 52
 2. string , '' or ""
-3. boolean => true or false
+3. boolean => true or false, 0 or 1
 4. null => standalone value means nothing
-representation of empty value
+representation of empty value, returntype object
 5. undefined => value not defined e.g let state;
 6. symbol => will talk in react, used for uniqueness
 

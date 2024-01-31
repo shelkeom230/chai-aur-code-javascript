@@ -5,6 +5,7 @@ const accountId=505050 //cannot be changed
 let accountEmail="shelkeom230@gmail.com"
 var accountPassword="12345"
 accountCity="Amravati"
+// console.log(typeof accountCity);
 let accountState
 
 // accountId=2 not allowed
