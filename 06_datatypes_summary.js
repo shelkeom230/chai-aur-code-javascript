@@ -40,3 +40,26 @@ console.log(typeof outSideTemp);
 console.log(typeof heros);
 console.log(typeof myobj);
 console.log(typeof myFunction);
+
+// ***************************************
+
+//Stack (Primitive), Heap (Non-Primitive)-> reference
+
+let myYoutubename="HiteshChoudhary.com"
+
+let anotherName=myYoutubename
+anotherName="Chai aur Code"
+console.log(anotherName);
+console.log(myYoutubename);
+
+let user1={
+  email:'user@google.com',
+  upi:'user@ybl'
+}
+
+let userTwo=user1 
+
+userTwo.email="hitesh@google.com"
+
+console.log(user1.email);
+console.log(userTwo.email); //gets same value
