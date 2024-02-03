@@ -16,7 +16,7 @@ console.log(null <= 0);
 
 console.log(undefined == 0);
 console.log(undefined > 0);
-console.log(undefined < 0);
+console.log(undefined < 0); //undefined maps to NaN
 // avoid above conversions , write clean code 
 
 // strict check => === checks value as well as datatype

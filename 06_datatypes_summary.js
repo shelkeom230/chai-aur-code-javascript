@@ -16,7 +16,7 @@ let userEmail; //undefined value
 const id = Symbol("123");
 const anotherId = Symbol("123");
 
-console.log(id === anotherId);
+console.log(id === anotherId); //check value as well as datatype
 const bigNumber = 33454345543443n;
 
 //Reference types/Non-primitive types: Arrays, objects, functions
