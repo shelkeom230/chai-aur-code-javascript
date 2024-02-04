@@ -21,10 +21,22 @@ function multiply(a, b) {
 // parametes: function definition
 // args: function call
 
-console.log(`addition of 2 numbers is ${addTwoNumbers(10, 20)}`); //args
-console.log(`addition of 2 numbers is ${addTwoNumbers(10, 5)}`);
+// console.log(`addition of 2 numbers is ${addTwoNumbers(10, 20)}`); //args
+// console.log(`addition of 2 numbers is ${addTwoNumbers(10, 5)}`);
 
 const result = addTwoNumbers(50, 50);
-console.log("Result: ", result);
+// console.log("Result: ", result);
 
-console.log(`multiplication: ${multiply(10, 3)}`);
+// console.log(`multiplication: ${multiply(10, 3)}`);
+
+function loginUserMessage(userName="Sam"){
+  if(!userName){ // empty string/undefined = false 
+    console.log("please enter username");
+    return
+  }
+  return `${userName} just logged in`
+}
+
+// console.log(loginUserMessage("Omkar"))
+// console.log(loginUserMessage(""));
+console.log(loginUserMessage("Omkar"));
