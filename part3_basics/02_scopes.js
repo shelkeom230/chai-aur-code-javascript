@@ -7,7 +7,7 @@ if (true) { //block scope
 }
 
 // console.log("GLOBAL: ",a);
-// console.log(b);
+// console.log(b); throws error
 // console.log(c);
 
 

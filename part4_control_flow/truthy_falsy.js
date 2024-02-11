@@ -1,4 +1,5 @@
-const email = ""; //false
+const email = ""; //false 
+// empty strings means false 
 
 if (email) {
   console.log("got user email");

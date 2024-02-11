@@ -24,7 +24,7 @@ if (score>100) {
 const balance=1000
 
 // if(balance>500) console.log("test"),
-// console.log("test 2"); //don't do this
+// console.log("test 2"); //it is also right, but don't do this
 
 /*
 if (balance<500) {
@@ -47,5 +47,5 @@ if(UserLoggedIn && debitCard && 2==2){
 }
 
 if(loggedInFromGoogle || loggedInFromEmail){
-    console.log("welcome user.");
+    console.log("welcome user.\nHave a great day");
 }

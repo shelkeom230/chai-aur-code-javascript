@@ -5,10 +5,21 @@
     console.log("DB CONNNECTED");
 })();
 
+(function getName()
+{
+    // named IIFE 
+    console.log("Hi Omkar");
+}) ();
+
+(function multiply(a,b){
+    console.log(`${a} * ${b} = ${a*b}`);
+}) (10,11);
+
 ( (name)=>{
     //unnamed IIFE
     console.log(`DB connected 2 ${name}`);
 }) ("Omkar")
+
 
 let val1=10
 let val2=20
