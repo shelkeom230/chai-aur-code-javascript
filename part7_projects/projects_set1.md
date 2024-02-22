@@ -3,6 +3,7 @@
 ## Projects solution codes on Github
  [click here](https://stackblitz.com/edit/dom-project-chaiaurcode-hpfhha?file=3-DigitalClock%2Fchaiaurcode.js)
 
+[my GitHub](https://www.github.com/shelkeom230)
 # Project 1
 ## solution code 
 ```javascript
@@ -76,3 +77,17 @@ form.addEventListener('submit',function(e){
 ## solution code 
 
 ```javascript
+const clock=document.getElementById('clock')
+
+setInterval(() => {
+    const date=new Date()
+
+    clock.innerHTML=date.toLocaleTimeString()
+}, 1000);
+```
+
+# Project 4
+## solution code
+
+```javascript
+
