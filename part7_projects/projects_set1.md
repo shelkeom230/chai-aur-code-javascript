@@ -35,7 +35,7 @@ buttons.forEach(function(button){
         }
     })
 })
-
+```
 # Project 2
 ## Solution code 
 
@@ -70,3 +70,9 @@ form.addEventListener('submit',function(e){
     }
 
 })
+```
+
+# Project 3
+## solution code 
+
+```javascript
