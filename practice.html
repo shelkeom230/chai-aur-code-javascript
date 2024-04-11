@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dom</title>
+  </head>
+  <body>
+    <ul class="language">
+        <li>Javascript</li>
+    </ul>
+    <ul class="names">
+        <li>omkar shelke</li>
+    </ul>
+    <script>
+
+        function addLanguage(language){
+            let li=document.createElement('li');
+            li.innerHTML=`${language}`;
+            document.querySelector('.language').appendChild(li);
+        }
+        addLanguage('js');
+        addLanguage('py');
+        function addNames(name){
+            let n=document.createElement('li');
+            n.innerHTML=`${name}`;
+            document.querySelector('.names').appendChild(n);
+        }
+        addNames('devesh patil');
+        addNames('tanay pratap');
+        addNames('kerti purswani');
+        addNames('haris ali khan');
+
+        function addOptionalLanguage(langName){
+            let li=document.createElement('li');
+            li.appendChild(document.createTextNode(langName));
+            document.querySelector('.language').
+            appendChild(li);
+        }
+        addOptionalLanguage('typescript');
+
+        // edit 
+        const secondLang=document.querySelector('li:nth-child(2)');
+        secondLang.innerHTML="mojo";
+        const firstLang=document.querySelector('li:nth-child(1)');
+        firstLang.innerHTML="larvel";
+
+        // remove 
+        const lastLang=document.querySelector('li:last-child');
+        lastLang.remove();
+        lastLang.remove();
+      
+    </script>
+  </body>
+</html>
