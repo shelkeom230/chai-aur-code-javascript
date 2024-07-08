@@ -21,12 +21,12 @@ console.log(gameName.indexOf('m')); //get index value of that char
 const newString=gameName.substring(0,4) //end index exclusive
 console.log(newString);
 
-const anotherString=gameName.slice(-8,4)
+const anotherString=gameName.slice(-8,4) //negative indexing
 console.log(anotherString);
 
 const newStringOne="    Omkar    "
 console.log(newStringOne);
-console.log(newStringOne.trim()); // remove white spaces
+console.log(newStringOne.trim()); // remove white spaces from both sides
 
 const url="https://omkarshelke.in/omkar%20shelke"
 const collegeUrl="https://sipnaengg.ac.in"
@@ -35,7 +35,7 @@ console.log(url.replace('%20','-'))
 console.log(collegeUrl.replace('in','edu'));
 
 console.log(url.includes('omkar'))
-console.log(url.includes('jaybansal'))
+console.log(url.includes('kylefernandis'))
 
 
 console.log(gameName.split('-'));
