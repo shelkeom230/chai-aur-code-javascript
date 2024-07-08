@@ -26,5 +26,3 @@ representation of empty value, returntype object
 
 console.log(typeof(null)); //null is an object but undefined itself is a datatype
 console.log(typeof(undefined))
-console.log([]===[])
-console.log({}==={})

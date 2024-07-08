@@ -41,6 +41,10 @@ const users=[
     }
 ]
 users[1].email
+users[1].id
+
+users[2].email
+users[2].id 
 console.log(tinderUser);
 
 console.log(Object.keys(tinderUser));

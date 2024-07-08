@@ -29,6 +29,7 @@ console.log(Math.floor(4.3)); //lower int value
 console.log(Math.min(3, 4, 5, 6));
 console.log(Math.max(3, 4, 5, 6));
 
+// random number generation 
 console.log(Math.random());
 console.log(Math.floor(Math.random() * 10) + 1);
 console.log(Math.floor(Math.random()*20)+1);

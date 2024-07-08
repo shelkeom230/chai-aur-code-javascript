@@ -1,9 +1,8 @@
-const clock=document.getElementById('clock');
+// math Pi 
+const descriptor=Object.getOwnPropertyDescriptor(Math,'PI');
 
-console.log(clock);
+console.log(descriptor);
 
-setInterval(() => {
-    const date=new Date();
-
-    clock.innerHTML=date.toLocaleTimeString();
-}, 1000);
+// console.log(Math.PI);
+// Math.PI=5;
+// console.log(Math.PI);
