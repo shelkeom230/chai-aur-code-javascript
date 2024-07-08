@@ -46,4 +46,6 @@ const addTwo=(num1,num2)=>({username:"omkar"})
 
 const myArray=[4,5,6,7,8]
 
-// myArray.forEach(() => {})
+myArray.forEach((val) => {
+  console.log(val)
+})
