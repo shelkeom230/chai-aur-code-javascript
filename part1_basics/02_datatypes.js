@@ -4,7 +4,7 @@
 
 console.log(3+3);
 console.log("omkar shelke");
-
+console.log(1-1);
 let name="omkar"
 let age=18
 let isLoggedIn=false
@@ -25,3 +25,6 @@ representation of empty value, returntype object
 */
 
 console.log(typeof(null)); //null is an object but undefined itself is a datatype
+console.log(typeof(undefined))
+console.log([]===[])
+console.log({}==={})
